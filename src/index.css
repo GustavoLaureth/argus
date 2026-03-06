@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #BBE1FA;
+  --color-primary-dark: #3282B8;
+  --color-secondary: #0F4C75;
+  --color-dark: #1B262C;
+
+  --color-background-light: #F8FAFC;
+  --color-background-dark: #1B262C;
+
+  --color-surface-light: #FFFFFF;
+  --color-surface-dark: #0F4C75;
+
+  --color-text-light: #1B262C;
+  --color-text-dark: #F8FAFC;
+
+  --color-text-muted-light: #475569;
+  --color-text-muted-dark: #94A3B8;
+
+  /* Fonts */
+  --font-sans: "Figtree", sans-serif;
+  --font-display: "Figtree", sans-serif;
+
+  /* Border radius */
+  --radius: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+
+  /* Shadows */
+  --shadow-soft: 0 10px 40px -10px rgba(15, 76, 117, 0.1);
+  --shadow-glow: 0 0 20px rgba(187, 225, 250, 0.5);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #0F4C75 0%, #3282B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .gradient-text {
+  background: linear-gradient(135deg, #BBE1FA 0%, #3282B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-pattern {
+  background-image: radial-gradient(#3282B8 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.1;
+}
