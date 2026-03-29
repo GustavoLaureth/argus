@@ -81,13 +81,13 @@ function App() {
             <div className="flex items-center space-x-4">
               <a
                 className="hidden md:block font-medium text-text-muted-light dark:text-text-muted-dark hover:text-secondary dark:hover:text-primary transition-colors"
-                href="#"
+                href="https://app.useargus.com.br"
               >
                 Entrar
               </a>
               <a
                 className="bg-secondary dark:bg-primary text-white dark:text-dark px-6 py-2.5 rounded-full font-bold hover:bg-dark dark:hover:bg-white transition-all shadow-md"
-                href="#"
+                href="https://app.useargus.com.br"
               >
                 Começar Grátis
               </a>
@@ -379,7 +379,7 @@ function App() {
                   </span>
                   5 gerações por mês
                 </li>
-                <li className="flex items-center gap-3 text-sm">
+                {/*<li className="flex items-center gap-3 text-sm">
                   <span className="material-icons text-green-500 text-sm">
                     check_circle
                   </span>
@@ -390,11 +390,11 @@ function App() {
                     check_circle
                   </span>
                   Apenas entrada de texto
-                </li>
+                </li>*/}
               </ul>
               <a
                 className="w-full py-3 rounded-xl border-2 border-gray-200 dark:border-secondary/50 font-bold text-center hover:border-secondary dark:hover:border-primary transition-colors"
-                href="#"
+                href="https://app.useargus.com.br"
               >
                 Começar Grátis
               </a>
@@ -417,7 +417,7 @@ function App() {
                   </span>
                   50 gerações por mês
                 </li>
-                <li className="flex items-center gap-3 text-sm">
+                {/*<li className="flex items-center gap-3 text-sm">
                   <span className="material-icons text-green-500 text-sm">
                     check_circle
                   </span>
@@ -434,11 +434,11 @@ function App() {
                     check_circle
                   </span>
                   1 tom de voz personalizado
-                </li>
+                </li>*/}
               </ul>
               <a
                 className="w-full py-3 rounded-xl border-2 border-gray-200 dark:border-secondary/50 font-bold text-center hover:border-secondary dark:hover:border-primary transition-colors"
-                href="#"
+                href="https://app.useargus.com.br/subscription"
               >
                 Assinar Starter
               </a>
@@ -462,7 +462,7 @@ function App() {
                   </span>
                   100 gerações por mês
                 </li>
-                <li className="flex items-center gap-3 text-sm">
+                {/*<li className="flex items-center gap-3 text-sm">
                   <span className="material-icons text-primary text-sm">
                     check_circle
                   </span>
@@ -479,11 +479,11 @@ function App() {
                     check_circle
                   </span>
                   5 tons de voz personalizados
-                </li>
+                </li>*/}
               </ul>
               <a
                 className="w-full py-3 rounded-xl bg-primary text-dark font-bold text-center hover:bg-white transition-colors shadow-lg"
-                href="#"
+                href="https://app.useargus.com.br/subscription"
               >
                 Assinar Creator
               </a>
@@ -504,9 +504,9 @@ function App() {
                   <span className="material-icons text-green-500 text-sm">
                     check_circle
                   </span>
-                  Gerações ilimitadas
+                  400 gerações por mês
                 </li>
-                <li className="flex items-center gap-3 text-sm">
+                {/*<li className="flex items-center gap-3 text-sm">
                   <span className="material-icons text-green-500 text-sm">
                     check_circle
                   </span>
@@ -523,11 +523,11 @@ function App() {
                     check_circle
                   </span>
                   Suporte prioritário
-                </li>
+                </li>*/}
               </ul>
               <a
                 className="w-full py-3 rounded-xl border-2 border-gray-200 dark:border-secondary/50 font-bold text-center hover:border-secondary dark:hover:border-primary transition-colors"
-                href="#"
+                href="https://app.useargus.com.br/subscription"
               >
                 Assinar Pro
               </a>
