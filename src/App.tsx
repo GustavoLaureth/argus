@@ -124,7 +124,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 className="w-full sm:w-auto px-8 py-4 bg-secondary dark:bg-primary text-white dark:text-dark rounded-full font-bold text-lg hover:bg-dark dark:hover:bg-white transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2"
-                href="#"
+                href="https://app.useargus.com.br"
               >
                 Começar grátis agora
                 <span className="material-icons">arrow_forward</span>
@@ -552,7 +552,7 @@ function App() {
           </p>
           <a
             className="inline-flex items-center justify-center px-10 py-5 bg-primary text-dark rounded-full font-bold text-xl hover:bg-white transition-all shadow-glow hover:-translate-y-1"
-            href="#"
+            href="https://app.useargus.com.br/create"
           >
             Começa a criar hoje
             <span className="material-icons ml-2">rocket_launch</span>
